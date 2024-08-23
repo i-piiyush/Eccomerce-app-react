@@ -3,6 +3,7 @@ import Home from './Components/Home'
 import { Routes, Route } from 'react-router-dom'
 import ProductDetail from './Components/ProductDetail'
 import Create from './Components/Create'
+
 import Editproduct from './Components/Editproduct'
 
 
@@ -10,8 +11,9 @@ function App() {
  
 
   return (
-    <div className='w-screen h-screen bg-zinc-200 flex overflow-hidden relative'>
-      
+    
+    <div className='w-screen h-screen bg-zinc-200 flex overflow-x-hidden relative'>
+     
        
       
       <Routes>
