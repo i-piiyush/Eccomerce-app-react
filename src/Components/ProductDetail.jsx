@@ -4,6 +4,8 @@ import Loading from "./Loading";
 import axios from "../utils/axios";
 import {Link, useParams} from "react-router-dom";
 
+
+
 const ProductDetail = () => {
   const [count, setCount] = useState(1);
   const [product, setProduct] = useState(null);
@@ -63,11 +65,11 @@ const ProductDetail = () => {
           </button>
         </div>
 
-        <Link to={"/editproduct"} className="bg-black text-white px-10 py-3 rounded-full mr-4 border-2 border-black">
-          Edit
-        </Link>
-        <button className=" text-black px-10 py-3 rounded-full btn">
-          Delete
+        <button className="bg-black text-white px-10 py-3 rounded-full mr-4 border-2 border-black">
+          Buy Now
+        </button >
+        <button className=" text-black px-10 py-3 mb-10 rounded-full btn">
+          Add to cart
         </button>
       </div>
     </div>

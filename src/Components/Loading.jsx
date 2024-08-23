@@ -1,19 +1,12 @@
 import React from "react";
+import { tailChase } from 'ldrs'
+
+tailChase.register()
 
 const Loading = () => {
   return (
     <div className="w-full h-full flex justify-center flex-col gap-5 items-center">
-      <div className="spinner">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <div>
-        <h1 className="text-5xl font-semibold">Loading</h1>
-      </div>
+      <l-tail-chase size="40" speed="1.75" color="black"></l-tail-chase>
     </div>
   );
 };
