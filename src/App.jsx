@@ -12,7 +12,7 @@ function App() {
 
   return (
     
-    <div className='w-screen h-screen bg-zinc-200 flex overflow-x-hidden relative'>
+    <div className='w-screen h-screen bg-zinc-300 flex overflow-x-hidden relative'>
      
        
       

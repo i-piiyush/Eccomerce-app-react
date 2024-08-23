@@ -20,7 +20,7 @@ const Home = () => {
     try {
       const { data } = await axios.get(`/products/category/${categories}`);
       setFilteredProducts(data);
-      console.log(data);
+      
     } catch (error) {
       console.log(error);
     }
